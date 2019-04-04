@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gasolina_txt">Gasoline</string>
+    <string name="alcool_txt">Alcohol</string>
+    <string name="app_name">Best Fuel</string>
+    <string name="title_text">Application to calculate the best fuel</string>
+    <string name="chamada_gasolina">Select the price of Gasoline</string>
+    <string name="chamada_alcool">Select the Price of Alcohol</string>
+    <string name="melhor_combustivel_text">It is best to stock with:</string>
+    <string name="melhorCombustivel_text">Fuel</string>
+</resources>

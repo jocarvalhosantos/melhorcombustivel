@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bester Kraftstoff</string>
+    <string name="title_text">Anwendung, um den besten Kraftstoff zu berechnen</string>
+    <string name="chamada_alcool">Wählen Sie den Preis für Alkohol</string>
+    <string name="chamada_gasolina">Wählen Sie den Benzinpreis</string>
+    <string name="melhor_combustivel_text">Es ist am besten mit:</string>
+    <string name="melhorCombustivel_text">Essen i Trinken</string>
+    <string name="gasolina_txt">Benzin</string>
+    <string name="alcool_txt">Alkohol</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/title_text"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/gasolinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/chamada_gasolina"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/valorGasolinaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:text="@string/valorGasolina"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/gasolinaSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:max="10000"
+        android:padding="8dp"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/alcoolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/chamada_alcool"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/valorAlcoolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:text="@string/valorAlcool"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/alcoolSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:padding="8dp"
+        android:max="10000"
+        android:progress="0"/>
+
+    <TextView
+        android:id="@+id/abastecaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="3dp"
+        android:text="@string/melhor_combustivel_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/melhorCombustivelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/melhorCombustivel_text"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/melhorCombustivelImageView"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="top"
+        app:srcCompat="@drawable/posto"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</GridLayout>

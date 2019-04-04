@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">最好的燃料</string>
+    <string name="title_text">应用计算最佳燃料</string>
+    <string name="chamada_gasolina">选择汽油的价格</string>
+    <string name="chamada_alcool">选择酒精价格</string>
+    <string name="melhor_combustivel_text">最好是库存：</string>
+    <string name="melhorCombustivel_text">食品和饮料</string>
+    <string name="gasolina_txt">汽油</string>
+    <string name="alcool_txt">酒精</string>
+</resources>

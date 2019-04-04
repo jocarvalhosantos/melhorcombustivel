@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mejor Combustible</string>
+    <string name="title_text">Aplicación para calcular el mejor combustible</string>
+    <string name="chamada_gasolina">Seleccione el precio de Gasolina</string>
+    <string name="chamada_alcool">Seleccione el precio del alcohol</string>
+    <string name="melhor_combustivel_text">Es mejor abastecer con:</string>
+    <string name="melhorCombustivel_text">Combustible</string>
+    <string name="gasolina_txt">Gasolina</string>
+    <string name="alcool_txt">Alcohol</string>
+</resources>
