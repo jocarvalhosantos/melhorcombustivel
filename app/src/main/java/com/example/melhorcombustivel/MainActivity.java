@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
             gasolina = Double.parseDouble(currencyFormat.parse(valor1).toString());
             alcool = Double.parseDouble(currencyFormat.parse(valor2).toString());
         }
-        catch (ParseException e){}
+        catch (ParseException ignored){}
     }
 
     private void calcularValores(String stringGasolina, Drawable drawableGasolina, String stringAlcool, Drawable drawableAlcool){
